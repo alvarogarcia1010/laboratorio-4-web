@@ -1,6 +1,10 @@
 :root
 {
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    line-height: 1.8em;
+    text-align: justify;
+
 }
 
 ::before, ::after
@@ -8,16 +12,40 @@
     box-sizing: inherit;
 }
 
+p
+{
+  color:#7f888f;
+}
+
 body{
     margin: 0 3em;
+}
+
+.container
+{
+  margin:1em 1em;
+}
+
+h1
+{
+  font-family: sans-serif;
+  line-height: 1.8em;
+}
+
+.btn
+{
+  border: solid #f56a6a 1px;
+  background-color: #ffffff;
+  padding: 10px 60px;
+  border-radius: 5px;
+  color: #f56a6a;
 }
 
 .flex-container{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    border-bottom: red solid 5px;
-    margin-bottom: 4em;
+    border-bottom: #f56a6a solid 5px;
 }
 
 .flex-container-grid{
@@ -31,13 +59,19 @@ header i
     padding: 0.8em;
 }
 
+img
+{
+  border-radius: 75px;
+  padding: 50px;
+}
+
 .icon
 {
     padding: 0.6em;
     font-size: 3em;
-    color: red;
+    color: #f56a6a;
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
 
 .grid-container {
     display: grid;
@@ -51,3 +85,8 @@ header i
     text-align: start;
   }
 
+  .btn:hover
+  {
+    color: blue;
+    border: solid blue 1px;
+  }
