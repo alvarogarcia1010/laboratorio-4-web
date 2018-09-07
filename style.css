@@ -8,8 +8,8 @@
     box-sizing: inherit;
 }
 
-.container{
-    margin: 0 2.5em;
+body{
+    margin: 0 3em;
 }
 
 .flex-container{
@@ -17,7 +17,7 @@
     justify-content:space-between;
     align-items: center;
     border-bottom: red solid 5px;
-
+    margin-bottom: 4em;
 }
 
 .flex-container-grid{
@@ -33,7 +33,7 @@ header i
 
 .icon
 {
-    padding: 0.8em;
+    padding: 0.6em;
     font-size: 3em;
     color: red;
 }
@@ -42,12 +42,12 @@ header i
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px;
+    padding: 0px;
   }
 
   .grid-item {
+    padding: 0;
     border:none;
-    padding: 20px;
     text-align: start;
   }
 
