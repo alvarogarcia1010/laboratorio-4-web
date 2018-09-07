@@ -65,6 +65,13 @@ img
   padding: 50px;
 }
 
+h2
+{
+  padding: 15px 0;
+  border-bottom: #f56a6a solid 5px;
+  width: 10%;
+}
+
 .icon
 {
     padding: 0.6em;
